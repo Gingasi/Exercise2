@@ -1,9 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class EXERCISE4 : MonoBehaviour
 {
+
+    public string Question;
+    public string[] Answers;
+    public int CorrectAnswers;
+
     // Start is called before the first frame update
     void Start()
     {
